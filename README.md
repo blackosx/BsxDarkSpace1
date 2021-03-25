@@ -14,7 +14,7 @@ The Resources directory from this repo contains just the Image dir for the EFI/O
 
 Each .icns file here begins with 'BsxDarkSpace1_'. The idea here is you can move the contents of this Image directory in to your existing OC/Resources/Image/ directory so these new files sit along side your existing theme files. 
 
-Before you do though, you will want to select your background image from the twelve different sized files in the /Resources/Image/BsxDarkSpace1_Backgrounds directory. Choose the one for your display resolution that OpenCanopy uses and move it in with the other .icns files. You can then remove the BsxDarkSpace1_Backgrounds directory as these files will generally be the largest and due to limited space on the EFI System Partition you won't want to store redundant image files.
+Before you do though, you will want to select your background image from the thirteen different sized files in the /Resources/Image/BsxDarkSpace1_Backgrounds directory. Choose the one for your display resolution that OpenCanopy uses and move it in with the other .icns files. You can then remove the BsxDarkSpace1_Backgrounds directory as these files will generally be the largest and due to limited space on the EFI System Partition you won't want to store redundant image files.
 
 Once your EFI/OC/Resources/Image dir contains the necessary BsxDarkSpace1_ .icns files you can switch the icon set used by OpenCanopy by changing the 'PickerVariant' key in OpenCore's config.plist to match the preceding name of the icon set you want to display. So to instruct OpenCanopy to use this icon set you want to set the PickerVariant key to BsxDarkSpace1_
 
