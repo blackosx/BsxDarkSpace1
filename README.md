@@ -1,7 +1,9 @@
 # BsxDarkSpace1_
 A set of PNG files wrapped in Apple .icns file format suitable for using as a theme for OpenCanopy which is part of OpenCore.
 
-<img src="https://github.com/blackosx/BsxDarkSpace1_/blob/main/preview.jpg" alt="theme_preview" border="0">
+<img src="https://github.com/blackosx/BsxDarkSpace1_/blob/main/preview_ui.jpg" alt="theme_preview" border="0">
+
+<img src="https://github.com/blackosx/BsxDarkSpace1_/blob/main/preview_password.jpg" alt="theme_preview" border="0">
 
 **Requirements**<br>
 [OpenCore](https://github.com/acidanthera/OpenCorePkg) with OpenCanopy installed and configured.
